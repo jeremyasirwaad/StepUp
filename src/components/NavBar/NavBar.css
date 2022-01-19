@@ -7,8 +7,8 @@
 @media only screen and (max-width: 600px) {
 
 :root {
-    --primColor: rgba(0, 0, 0, 0.883);
-    --secoColor: #ffffff;
+    --primColor: rgb(255, 255, 255);
+    --secoColor: #000000;
     --cornerRad: 4px;
   }
   body {
@@ -67,7 +67,7 @@
     animation-name: menuAnim;
   }
   details[open] summary::before {
-    content: "X";
+    content: "x";
   }
   details[open] summary::after {
     content: "";
@@ -76,7 +76,7 @@
     height: 0;
     width: fit-content;
     border-radius: var(--cornerRad);
-    background-color: var(--primColor);
+    background-color: black;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.2);
     margin-top: 8px;
     display: flex;
@@ -88,8 +88,8 @@
   .menu a {
     padding: 12px 24px;
     margin: 0 16px;
-    color: var(--secoColor);
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    color: rgba(255, 255, 255, 0.822);
+    border-bottom: 1px solid #ffffff;
     text-decoration: none;
     text-align: center;
     transition: filter 200ms linear 0s;
@@ -101,7 +101,7 @@
     border-bottom: none;
   }
   .menu a:hover {
-    filter: brightness(200%);
+    color: white;
   }
 
   @keyframes menuAnim {
