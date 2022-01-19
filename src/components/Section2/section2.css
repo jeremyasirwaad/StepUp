@@ -26,8 +26,20 @@
         color: rgb(255, 255, 255);
     }
 
+    .sec2contents p{
+        margin: 30px;
+    }
     .colsec2{
         color: white;
+    }
+
+    .playerconatiner{
+        width: 100%;
+        /* height: 100%; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
     }
 }
 
