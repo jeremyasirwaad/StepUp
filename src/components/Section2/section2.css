@@ -1,0 +1,15 @@
+
+
+
+.section2{
+    position: relative;
+    height: 800px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FA7268;
+}
