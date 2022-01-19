@@ -16,6 +16,7 @@ const Section2 = () => {
                 <ReactPlayer url='https://youtu.be/tEzP3v5mizs' controls = "true" width= "100%" height={250}  />
                 </div>
             </div>
+            
         </div>
     );
 }
