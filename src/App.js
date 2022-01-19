@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       {/* <ImageSlider /> */}
       <Landing />
-      {/* <Section2 /> */}
+      <Section2 />
     </div>
   );
 }
