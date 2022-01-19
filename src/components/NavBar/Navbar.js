@@ -10,9 +10,10 @@ export const Navbar = () => {
             <nav class="menu">
                 <a href="#link">Home</a>
                 <a href="#link">Why StartUps ?</a>
-                <a href="#link">Where To Start ?</a>
-                <a href="#link">Contact</a>
-                <a href="#link">About</a>
+                <a href="#link">Why FullStack ?</a>
+                <a href="#link">STEP UP Program</a>
+                <a href="#link">Resources</a>
+                <a href="#link">FAQ</a>
             </nav>
             </details>
         </div>

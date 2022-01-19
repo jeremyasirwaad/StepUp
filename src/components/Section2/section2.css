@@ -1,10 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@media only screen and (max-width: 600px)
+{
+    .section2{
+        height: 500px;
+        width: 100vw;
+        background-color: #be5858;   
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .sec2contents{
+        height: 100%;
+        width: 90%;
+        color: rgb(0, 0, 0);
+    font-family: 'Outfit', sans-serif;
+        font-size: 18px;
 
+        /* margin-ttom: 100px; */
 
-.section2{
-    height: 500px;
-    width: 100vw;
-    background-color: #a33939;
+    }
 
+    .sec2title{
+        font-size: 26px;
+        color: rgb(255, 255, 255);
+    }
+
+    .colsec2{
+        color: white;
+    }
 }
+
+
 
