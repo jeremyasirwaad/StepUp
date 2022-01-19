@@ -16,7 +16,7 @@ export const Landing = () => {
         <div className='Landingpage'>
             <div className="landingcontents">
                 <p data-aos="zoom-in">Welcome to the <span className='colorland'>STEP UP</span> Program, a <span className='colorland'>gSARC</span> initiative to groom FullStack developers for startups</p>
-                <button class="button-56">Get Started</button>
+                <button   class="button-56" >Get Started</button>
                 <i class="fas fa-angle-double-down vert-move"></i>
             </div>
             <div class="custom-shape-divider-bottom-1642609008">
