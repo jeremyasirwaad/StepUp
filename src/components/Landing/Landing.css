@@ -3,16 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 .Landingpage{
     position: relative;
-    height: 600px;
+    height: 70vh;
     width: 100vw;
-    background-position: center;
-    background-size: cover;
-    display: flex;
+    display: flex;  
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: #001220;
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 .title1{
@@ -35,7 +32,7 @@
     color: rgb(255, 251, 44);
 }
 
-.custom-shape-divider-bottom-1642593925 {
+.custom-shape-divider-bottom-1642609008 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -45,13 +42,13 @@
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1642593925 svg {
+.custom-shape-divider-bottom-1642609008 svg {
     position: relative;
     display: block;
-    width: calc(167% + 1.3px);
-    height: 200px;
+    width: calc(100% + 1.3px);
+    height: 141px;
 }
 
-.custom-shape-divider-bottom-1642593925 .shape-fill {
-    fill: #FA7268;
+.custom-shape-divider-bottom-1642609008 .shape-fill {
+    fill: #FFFFFF;
 }

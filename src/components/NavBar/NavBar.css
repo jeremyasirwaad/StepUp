@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@media only screen and (max-width: 600px) {
 
 :root {
     --primColor: rgb(0, 0, 0, 0.7);
@@ -12,15 +17,15 @@
     font-size: 20px;
   }
   details {
-    margin-left: 40px;
-    margin-top: 12px;
+    margin-left: 30px;
+    margin-top: 8px;
   }
   summary {
     writing-mode: vertical-lr;
     text-align: center;
-    padding: 12px 10px;
-    width: 23px;
-    height: 17px;
+    padding: 10px 10px;
+    width: 18px;
+    height: 14px;
     background-color: var(--primColor);
     border: 2px solid var(--secoColor);
     border-radius: var(--cornerRad);
@@ -119,34 +124,53 @@
 
   .navbarcontainer{
     width: 100%;
-    background-color: #001220;
+    background-color: #ffffff;
     position: fixed;
     top: 0px;
-    height: 70px;
+    height: 60px;
     display: flex;
     box-shadow: rgba(18, 18, 32, 0.2) 0px 7px 29px 0px;
     z-index: 100;
   }
 
   .titlecon{
-      width: 100%;
-      height: 70px;
+      width: 100vw;
+      height: 60px;
       display: flex;
         align-items: center;
-        justify-content: center;
+        /* justify-content: center; */
         position: fixed;
         z-index: -1;
+        justify-content: flex-end;
+
     }
 
   .title_nav{
-      color: white;
-      font-family: 'Courgette', cursive;
-      font-size: 35px;
+      color: rgb(0, 0, 0);
+      /* font-family: 'Courgette', cursive; */
+      font-size: 25px;
+      font-family: 'Montserrat', sans-serif;
   }
 
   .fas{
 
-      color: white;
+      color: rgb(0, 0, 0);
       margin-right: 20px;
       font-size: 35px;
   }
+
+  .logoimg{
+    height: 40px ;
+    width: auto;
+  }
+
+  .logoandtitle{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+      margin-right: 10px;
+      width: 180px;
+  }
+
+}
