@@ -4,7 +4,7 @@
 {
     .Section3page{
         position: relative;
-        height: 500px;
+        height: 820px;
         width: 100vw;
         background-color: rgb(255, 255, 255);
         display: flex;
@@ -63,5 +63,28 @@
     
     .sec3col{
         color: rgb(68, 204, 68);
+    }
+
+    .custom-shape-divider-bottom-16426090081 {
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    .custom-shape-divider-bottom-16426090081 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 141px;
+    }
+    
+    .custom-shape-divider-bottom-16426090081 .shape-fill {
+        fill: #ffd586;
+        /* fill: #a33939; */
+    
     }
 }

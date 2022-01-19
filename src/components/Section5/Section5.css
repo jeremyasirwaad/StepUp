@@ -1,0 +1,56 @@
+.section5page{
+    position: relative;
+        height: 900px;
+        width: 100vw;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.custom-shape-divider-top-16426248175 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-16426248175 svg {
+    position: relative;
+    display: block;
+    width: calc(139% + 1.3px);
+    height: 49px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-16426248175 .shape-fill {
+    fill: #ffd586;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+    .custom-shape-divider-top-16426248175 svg {
+        width: calc(139% + 1.3px);
+        height: 201px;
+    }
+}
+
+.sec5title{
+    margin-right: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.faqdiv{
+    margin-top: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sec3textcon5{
+    margin-top: 100px;
+}
