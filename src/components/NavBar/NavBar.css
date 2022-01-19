@@ -7,7 +7,7 @@
 @media only screen and (max-width: 600px) {
 
 :root {
-    --primColor: rgb(0, 0, 0, 0.7);
+    --primColor: rgba(0, 0, 0, 0.883);
     --secoColor: #ffffff;
     --cornerRad: 4px;
   }
@@ -24,7 +24,7 @@
     writing-mode: vertical-lr;
     text-align: center;
     padding: 10px 10px;
-    width: 18px;
+    width: 22px;
     height: 14px;
     background-color: var(--primColor);
     border: 2px solid var(--secoColor);
@@ -172,5 +172,6 @@
       margin-right: 10px;
       width: 180px;
   }
+
 
 }

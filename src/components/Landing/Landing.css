@@ -3,13 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 .Landingpage{
     position: relative;
-    height: 70vh;
+    height: 80vh;
     width: 100vw;
     display: flex;  
-    justify-content: center;
+    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
     margin-top: 60px;
+    /* background-color: blue; */
 }
 
 .title1{
@@ -50,5 +51,108 @@
 }
 
 .custom-shape-divider-bottom-1642609008 .shape-fill {
-    fill: #FFFFFF;
+    fill: #a33939;
+}
+
+.landingcontents{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.landingcontents p{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    margin-top: 90px;
+
+}
+
+.landingcontents i{
+    font-size: 19px;
+    margin-top: 37px;
+    color: orange;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+
+
+i.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+.colorland{
+    color: blue;
+}
+
+
+
+
+.button-56 {
+  align-items: center;
+  background-color: #fbfbfb;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  height: 30px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 90%;
+  padding: 0 13px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 10px;
+}
+
+.button-56:after {
+  background-color: rgb(3, 3, 82);
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 30px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
 }
