@@ -1,14 +1,15 @@
-import React from 'react';
+import React, { useState, useCallback } from 'react';
 import './Section5.css'
 import freecode from './freecode.png';
 // import ImgsViewer from "react-images-viewer";
 import fullstackopen from './FullsTackopen.png'
 import odin from './OdinProject.png'
 import webdev from './Web.dev.png'
-import resumeimg from './0001.jpg'
+import imgresu from './0001.jpg'
 
 const Section5 = () => {
 
+  
     const data = {
         rows: [
             {
@@ -45,7 +46,7 @@ const Section5 = () => {
     
 
     return (
-        <div className='section5page'>
+        <div className='section5page' id='resources'>
             <div class="custom-shape-divider-top-16426248175">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
@@ -81,10 +82,15 @@ const Section5 = () => {
                     <a href="https://krayen.notion.site/krayen/Project-List-0e68de0c73c44d569b63393f5b491849">Click Here to Find the Project List</a>
                     <div className="modelresume">
                         <span>Model Resume</span>
-                        <img className='resuimg' src={resumeimg} alt="" />
+                        <img className='resuimg' src={imgresu} alt="" />
                     </div>
                 </div>
             </div>
+            <div class="custom-shape-divider-bottom-164260900815">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+                </svg>
+        </div>
         </div>
     );
 }

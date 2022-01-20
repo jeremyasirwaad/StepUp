@@ -1,27 +1,65 @@
 import React from 'react';
 import './Section6.css'
+import Faq from "react-faq-component";
 const Section6 = () => {
+
+      
+    const data = {
+        rows: [
+            {
+                title: "Can anyone join STEP UP?",
+                content: `Yes. Any department. Any Year`,
+            },
+            {
+                title: "I want to focus on core. Why should I join STEP UP?",
+                content:
+                    "Treat this as a backup plan. If your ambition to get into 'core' doesn't work out, you can always get into a startup as a fullstack developer.",
+            },
+            {
+                title: " How long will it take to learn?",
+                content: `Depends on you. If you spend 25 hours per week, you shall be ready for an internship in 3 months. `,
+            },            
+            {
+                title: " How do I join STEP UP?",
+                content: `Install Telegram. Join the following group https://t.me/+umF60BUfik0xZTll`,
+            },
+            {
+                title: " If I have doubts, whom should I approach?",
+                content: `The 'Resources' section has a good selection of videos/course materials that shall help you understand Fullstack. Also feel free to ask questions in the telegram group. `,
+            },
+        ],
+    };
+    
+    const styles = {
+        bgColor: 'none',
+        titleTextColor: "black",
+        rowTitleColor: "blue",
+        rowTitleColor: 'black',
+        rowContentColor: 'brown',
+        // arrowColor: "red",
+        
+    };
+    
+    const config = {
+        animate: true,
+        // arrowIcon: "V",
+        tabFocus: true
+    };
+
     return (
-        <div className='sec6page'>
-            <div class="custom-shape-divider-top-16426248176">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
-            </svg>
+        <div className='sec6page' id='faq'>
+            <div className="sec3textcon6">
+                <span  className='sec6title'>Frequently Asked<span className='sec4col'>   Questions</span></span>
+                    <div className='faqdiv6'>
+                    <Faq
+                        data={data}
+                        styles={styles}
+                        config={config}
+                    />
+                </div>
+            </div>        
         </div>
-        <div className="sec3textcon">
-            <span  className='sec3title'>Why <span className='sec3col'>FullStack ?</span></span>
-            <p data-aos="fade-right" style={{"marginTop" : "80px"}}>The age of the smartphones and tablets have forced every organization - from governments to educational institutions - to have a strong, visually appealing presence on the web. </p>
-            <p data-aos="fade-right">And the way to get there is by developing <span className='sec3col'> web applications</span> that work on all devices and are visually appealing. 
-            </p>
-            <p data-aos="fade-right">The suite of technology needed to develop such applications is collectively called <span className='sec3col'>Fullstack</span>. </p>
-            <p data-aos="fade-right">Needless to say, <span className='sec3col'>Fullstack</span> engineers are in demand and shall be in demand.</p>
-        </div>
-        <div class="custom-shape-divider-bottom-164260900816">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
-                </svg>
-        </div>
-        </div>
+
     );
 }
 

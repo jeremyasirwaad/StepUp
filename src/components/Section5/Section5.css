@@ -1,6 +1,6 @@
 .section5page{
     position: relative;
-        height:1600px;
+        height:1700px;
         width: 100vw;
         background-color: rgb(255, 255, 255);
         display: flex;
@@ -79,7 +79,7 @@
 
 .relinks{
     width: 100%;
-    height: 600px;
+    height: 450px;
     /* background-color: tomato; */
     display: flex;
     flex-direction: column;
@@ -142,4 +142,28 @@
     height: auto;
     width: 80%;
     margin-bottom: 30px;
+}
+
+
+.custom-shape-divider-bottom-164260900815{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-164260900815 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 141px;
+}
+
+.custom-shape-divider-bottom-164260900815 .shape-fill {
+    fill: #a0fbfb;
+    /* fill: #a33939; */
+
 }

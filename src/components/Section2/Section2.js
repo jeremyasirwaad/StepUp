@@ -4,7 +4,7 @@ import ReactPlayer from 'react-player'
 const Section2 = () => {
     return (
         <div className='section2'>
-            <div className="sec2contents">
+            <div className="sec2contents " id='startups'>
                 <span data-aos="fade-right" className='sec2title'>Why StartUps ?</span>
                 <p data-aos="fade-up">Are they risky?
                     What skills are hot?

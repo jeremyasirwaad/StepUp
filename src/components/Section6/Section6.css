@@ -4,11 +4,10 @@
 {
     .sec6page{
         position: relative;
-        height: 820px;
+        height: 100%;
         width: 100vw;
-        background-color: rgb(255, 255, 255);
+        background-color: #a0fbfb;
         display: flex;
-        align-items: center;
         justify-content: center;
     }
 
@@ -42,18 +41,16 @@
     }
 
 
-    .sec3textcon{
-        margin-top: 400px;
+    .sec3textcon6{
+        /* margin-top: 400px; */
         height: 100%;
         width: 80%;
         font-family: 'Outfit', sans-serif;
     }
 
-    .sec3title{
-        position: absolute;
+    .sec6title{
         font-size: 26px;
-        right: 0px;
-        margin-right: 20px;
+        color: rgb(0, 0, 0);
         
     }
 
@@ -65,26 +62,19 @@
         color: rgb(68, 204, 68);
     }
 
-    .custom-shape-divider-bottom-164260900816 {
-        position: absolute;
-        bottom: 0px;
-        left: 0;
-        width: 100%;
-        overflow: hidden;
-        line-height: 0;
-        transform: rotate(180deg);
+
+    .faqdiv6{
+        margin-top: 40px;
+        margin-bottom: 100px;
     }
-    
-    .custom-shape-divider-bottom-164260900816 svg {
-        position: relative;
-        display: block;
-        width: calc(100% + 1.3px);
-        height: 141px;
-    }
-    
-    .custom-shape-divider-bottom-164260900816 .shape-fill {
-        fill: white;
-        /* fill: #a33939; */
-    
-    }
+
+    .noselect {
+        -webkit-touch-callout: none; /* iOS Safari */
+          -webkit-user-select: none; /* Safari */
+           -khtml-user-select: none; /* Konqueror HTML */
+             -moz-user-select: none; /* Old versions of Firefox */
+              -ms-user-select: none; /* Internet Explorer/Edge */
+                  user-select: none; /* Non-prefixed version, currently
+                                        supported by Chrome, Edge, Opera and Firefox */
+      }
 }

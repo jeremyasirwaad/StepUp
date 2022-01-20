@@ -1,9 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 @media only screen and (max-width: 600px) {
 
 :root {
@@ -13,7 +9,7 @@
   }
   body {
      /* background-color: rgb(29, 27, 27); */
-    font-family: Arial, Helvetica, sans-serif;
+     font-family: 'Outfit', sans-serif;
     font-size: 20px;
   }
   details {
@@ -25,7 +21,7 @@
     text-align: center;
     padding: 10px 10px;
     width: 22px;
-    height: 14px;
+    height: 15px;
     background-color: var(--primColor);
     border: 2px solid var(--secoColor);
     border-radius: var(--cornerRad);
@@ -49,10 +45,12 @@
   summary::after {
     content: "III";
     letter-spacing: -1px;
+    /* transform: scale(1.1); */
+
   }
   summary:hover {
     transform: scale(1.1);
-    border: 2px solid var(--secoColor);
+    /* border: 2px solid var(--secoColor); */
     border-radius: var(--cornerRad);
     color: var(--secoColor);
 
@@ -85,22 +83,22 @@
     overflow: hidden;
     animation: closeMenu 300ms ease-in-out forwards;
   }
-  .menu a {
+  .linksfornav{
     padding: 12px 24px;
     margin: 0 16px;
     color: rgba(255, 255, 255, 0.822);
-    border-bottom: 1px solid #ffffff;
+    /* border-bottom: 1px solid #ffffff; */
     text-decoration: none;
     text-align: center;
     transition: filter 200ms linear 0s;
   }
-  .menu a:nth-of-type(1) {
+  .linksfornav:nth-of-type(1) {
     padding-top: 24px;
   }
-  .menu a:nth-last-of-type(1) {
+  .linksfornav:nth-last-of-type(1) {
     border-bottom: none;
   }
-  .menu a:hover {
+  .linksfornav:hover {
     color: white;
   }
 

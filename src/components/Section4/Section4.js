@@ -2,7 +2,7 @@ import React from 'react';
 import './Section4.css'
 const Section4 = () => {
     return (
-        <div className='section4page'>
+        <div className='section4page' id='stepup'>
             <div className="sec2contents">
                 <span data-aos="fade-right" className='sec2title sec4title'> <span className='col4'>STEP UP</span> Program:</span>
                 <p data-aos="fade-up">This is a learning by doing program where a typical student goes through the following stages:</p>

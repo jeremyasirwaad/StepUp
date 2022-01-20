@@ -13,7 +13,7 @@ export const Landing = () => {
     },[])
 
     return (
-        <div className='Landingpage'>
+        <div className='Landingpage' id='home'>
             <div className="landingcontents">
                 <p data-aos="zoom-in">Welcome to the <span className='colorland'>STEP UP</span> Program, a <span className='colorland'>gSARC</span> initiative to groom FullStack developers for startups</p>
                 <button   class="button-56" >Get Started</button>
