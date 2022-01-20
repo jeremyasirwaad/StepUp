@@ -1,6 +1,12 @@
 import React from 'react';
 import './Section5.css'
-import Faq from "react-faq-component";
+import freecode from './freecode.png';
+// import ImgsViewer from "react-images-viewer";
+import fullstackopen from './FullsTackopen.png'
+import odin from './OdinProject.png'
+import webdev from './Web.dev.png'
+import resumeimg from './0001.jpg'
+
 const Section5 = () => {
 
     const data = {
@@ -46,14 +52,37 @@ const Section5 = () => {
                 </svg>
             </div>
             <div className="sec3textcon5">
-                <span data-aos="fade-up"  className='sec3title sec5title'>Frequently Asked</span>
-             <span  data-aos="fade-up" className='sec3title sec5title' style={{ "marginTop" : "30px", "color": "brown" }}>Questions</span>
-                <div className="faqdiv">
-                <Faq
-                data={data}
-                styles={styles}
-                config={config}
-            />
+                <span data-aos="fade-up"  className='sec3title sec5title'>Resources</span>
+                <div className="divpwrap">
+                    <p>The following is a selective list of <span className='col5'>resources</span> that we think shall be useful for those who wish to pickup <span className='col5'>fullstack skills</span>. Feel free to pick the one that suits you.</p>
+                    <div className="relinks">
+                        <div className="relink1">
+                            <div className="img1">
+                                <img src={freecode} alt="" />
+                                <span>Freecode Camp</span>
+                            </div>
+                            <div className="img2">
+                                <img src={fullstackopen} alt="" />
+                                <span>FullStackOpen</span>
+                            </div>
+                        </div>
+                        <div className="relink2">
+                            <div className="img3">
+                                <img src={odin}alt="" />
+                                <span>Odin</span>
+                            </div>
+                            <div className="img4">
+                                <img src={webdev} alt="" />
+                                <span>Web.Dev</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p>We also have some problems that can be solved as a fullstack project. Feel free to pick and choose a project from the following list. </p>
+                    <a href="https://krayen.notion.site/krayen/Project-List-0e68de0c73c44d569b63393f5b491849">Click Here to Find the Project List</a>
+                    <div className="modelresume">
+                        <span>Model Resume</span>
+                        <img className='resuimg' src={resumeimg} alt="" />
+                    </div>
                 </div>
             </div>
         </div>

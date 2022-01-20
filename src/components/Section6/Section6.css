@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+@media only screen and (max-width:600px)
+{
+    .sec6page{
+        position: relative;
+        height: 820px;
+        width: 100vw;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .custom-shape-divider-top-16426248176 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+    }
+    
+    .custom-shape-divider-top-16426248176 svg {
+        position: relative;
+        display: block;
+        width: calc(139% + 1.3px);
+        height: 49px;
+        transform: rotateY(180deg);
+    }
+    
+    .custom-shape-divider-top-16426248176 .shape-fill {
+        fill: #ffd586;
+    }
+    
+    /** For mobile devices **/
+    @media (max-width: 767px) {
+        .custom-shape-divider-top-1642624817 svg {
+            width: calc(139% + 1.3px);
+            height: 201px;
+        }
+    }
+
+
+    .sec3textcon{
+        margin-top: 400px;
+        height: 100%;
+        width: 80%;
+        font-family: 'Outfit', sans-serif;
+    }
+
+    .sec3title{
+        position: absolute;
+        font-size: 26px;
+        right: 0px;
+        margin-right: 20px;
+        
+    }
+
+    .sec3textcon p{
+        font-size: 18px;
+    }
+    
+    .sec3col{
+        color: rgb(68, 204, 68);
+    }
+
+    .custom-shape-divider-bottom-164260900816 {
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+    
+    .custom-shape-divider-bottom-164260900816 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 141px;
+    }
+    
+    .custom-shape-divider-bottom-164260900816 .shape-fill {
+        fill: white;
+        /* fill: #a33939; */
+    
+    }
+}

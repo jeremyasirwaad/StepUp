@@ -8,6 +8,7 @@ import Section3 from './components/Section3/Section3';
 import Section4 from './components/Section4/Section4';
 import Section5 from './components/Section5/Section5';
 import Footer from './components/Footer/Footer';
+import Section6 from './components/Section6/Section6';
 import logo from './components/NavBar/151517978_1629864483_IMG-20201010-WA0000.jpg'
 import './components/Landing/Landing.css'
 function App() {
@@ -19,7 +20,8 @@ function App() {
       <Section3 />
       <Section4 />
       <Section5 />
-      <Footer />
+      {/* <Section6 /> */}
+      {/* <Footer /> */}
 
     </div>
   );
