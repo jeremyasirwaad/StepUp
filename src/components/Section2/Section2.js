@@ -13,7 +13,7 @@ const Section2 = () => {
                 To know more watch this video by our alumnus, <br /> <span className='colsec2'> Bargava Subramanian (2002)</span>, a Serial Entrepreneur, Startup Investor, Mentor and Data Scientist.
                 </p>
                 <div className="playerconatiner" data-aos="fade-right">
-                <ReactPlayer url='https://youtu.be/tEzP3v5mizs' controls = "true" width= "100%" height={250}  />
+                <ReactPlayer url='https://youtu.be/tEzP3v5mizs' controls = "true" width= "80%" height={250}  />
                 </div>
             </div>
             
