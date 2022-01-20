@@ -60,14 +60,14 @@ const Section5 = () => {
                     <p data-aos="fade-up">The following is a selective list of <span className='col5'>resources</span> that we think shall be useful for those who wish to pickup <span className='col5'>fullstack skills</span>. Feel free to pick the one that suits you.</p>
                     <div className="relinks">
                     <div className="relink3">
-                           <a href="https://youtu.be/bMknfKXIFA8" className="img1"  data-aos="flip-left" >
+                           <a href="https://www.freecodecamp.org/learn/responsive-web-design/" className="img1"  data-aos="flip-left" >
                                 <img src={freecode} alt="" />
                                 <span>Freecode Camp</span>
                                 <span className="braca">(Responsive Web)</span>
 
                                 {/* <span>Responsive Design</span> */}
                             </a>
-                            <a href="https://fullstackopen.com/en/" className="img2" data-aos="flip-right">
+                            <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/" className="img2" data-aos="flip-right">
                                 <img src={freecode} alt="" />
                                 <span>Freecode Camp</span>
                                 <span className="braca">(Javascript)</span>
