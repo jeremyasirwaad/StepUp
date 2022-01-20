@@ -171,5 +171,12 @@
       width: 180px;
   }
 
+  a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+}
+
 
 }

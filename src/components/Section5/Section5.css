@@ -167,3 +167,8 @@
     /* fill: #a33939; */
 
 }
+
+.section5page a:-webkit-any-link
+{
+    color: brown;
+}

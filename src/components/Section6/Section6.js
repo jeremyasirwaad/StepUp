@@ -21,7 +21,7 @@ const Section6 = () => {
             },            
             {
                 title: " How do I join STEP UP?",
-                content: `Install Telegram. Join the following group https://t.me/+umF60BUfik0xZTll`,
+                content: `Install Telegram. Join the following group <a className = "faqa" href="https://t.me/+umF60BUfik0xZTll">Join Group</a>`,
             },
             {
                 title: " If I have doubts, whom should I approach?",
@@ -49,8 +49,8 @@ const Section6 = () => {
     return (
         <div className='sec6page' id='faq'>
             <div className="sec3textcon6">
-                <span  className='sec6title'>Frequently Asked<span className='sec4col'>   Questions</span></span>
-                    <div className='faqdiv6'>
+                <span  className='sec6title' data-aos="fade-right">Frequently Asked<span className='sec4col'>   Questions</span></span>
+                    <div className='faqdiv6' data-aos="fade-up">
                     <Faq
                         data={data}
                         styles={styles}

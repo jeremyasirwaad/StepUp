@@ -19,13 +19,13 @@ export const Navbar = () => {
             <Anchor>
                 <Link className='linksfornav' href="#fullstack" title="Why FullStack" />
             </Anchor>
-            <Anchor targetOffset = '100'>
+            <Anchor targetOffset = '150'>
                 <Link className='linksfornav' href="#stepup" title="STEPUP Program" />  
             </Anchor>
             <Anchor>
                 <Link className='linksfornav' href="#resources" title="Resources" />
             </Anchor>
-            <Anchor>
+            <Anchor targetOffset = '150'>
                 <Link className='linksfornav' href="#faq" title="FAQ" />
             </Anchor>
             </nav>

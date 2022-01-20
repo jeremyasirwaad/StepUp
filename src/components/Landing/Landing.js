@@ -1,8 +1,15 @@
+import { scroller } from "react-scroll";
 import React, { useEffect } from 'react'
 import image1 from "./pexels-oliver-sjöström-931018.jpg"
 import './Landing.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Anchor } from 'antd';
+import { useRef } from 'react'
+const { Link } = Anchor;
+
+
+
 export const Landing = () => {
 
     useEffect(() => {
@@ -12,11 +19,20 @@ export const Landing = () => {
         })
     },[])
 
+
+   const  scrollToSection = () => {
+        scroller.scrollTo("custom-shape-divider-bottom-16426090081", {
+          duration: 800,
+          delay: 0,
+          smooth: "easeInOutQuart",
+        });
+      };
+
     return (
         <div className='Landingpage' id='home'>
             <div className="landingcontents">
                 <p data-aos="zoom-in">Welcome to the <span className='colorland'>STEP UP</span> Program, a <span className='colorland'>gSARC</span> initiative to groom FullStack developers for startups</p>
-                <button   class="button-56" >Get Started</button>
+                <button   class="button-56" onClick={() => { scrollToSection(); }}>Get Started</button>
                 <i class="fas fa-angle-double-down vert-move"></i>
             </div>
             <div class="custom-shape-divider-bottom-1642609008">
