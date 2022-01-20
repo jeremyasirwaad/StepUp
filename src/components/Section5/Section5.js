@@ -60,24 +60,24 @@ const Section5 = () => {
                     <p data-aos="fade-up">The following is a selective list of <span className='col5'>resources</span> that we think shall be useful for those who wish to pickup <span className='col5'>fullstack skills</span>. Feel free to pick the one that suits you.</p>
                     <div className="relinks">
                         <div className="relink1">
-                           <div className="img1" onClick={()=>{  }} data-aos="flip-left" >
+                           <a href="https://youtu.be/bMknfKXIFA8" className="img1"  data-aos="flip-left" >
                                 <img src={freecode} alt="" />
-                                <span>Freecode Camp</span>
-                            </div>
-                            <div className="img2" data-aos="flip-right">
+                                <span>Freecode Camp </span>
+                            </a>
+                            <a href="https://fullstackopen.com/en/" className="img2" data-aos="flip-right">
                                 <img src={fullstackopen} alt="" />
                                 <span>FullStackOpen</span>
-                            </div>
+                            </a>
                         </div>
                         <div className="relink2">
-                            <div className="img3" data-aos="flip-left">
+                            <a href="https://www.theodinproject.com/" className="img3" data-aos="flip-left">
                                 <img src={odin}alt="" />
                                 <span>Odin</span>
-                            </div>
-                            <div className="img4" data-aos="flip-right">
+                            </a>
+                            <a href="https://web.dev/learn/pwa/" className="img4" data-aos="flip-right">
                                 <img src={webdev} alt="" />
                                 <span>Web.Dev</span>
-                            </div>
+                            </a>
                         </div>
                     </div>
                     <p data-aos="fade-up">We also have some problems that can be solved as a fullstack project. Feel free to pick and choose a project from the following list. </p>
