@@ -1,10 +1,10 @@
 .section5page{
     position: relative;
-        height: 900px;
+        height: 700px;
         width: 100vw;
         background-color: rgb(255, 255, 255);
         display: flex;
-        align-items: center;
+        /* align-items: center; */
         justify-content: center;
 }
 
@@ -38,19 +38,30 @@
 }
 
 .sec5title{
-    margin-right: 20px;
+    margin-right: 40px;
     color: rgb(0, 0, 0);
+    /* position: relative; */
+
 }
 
 .faqdiv{
-    margin-top: 90px;
-    width: 100%;
-    display: flex;
+    /* margin-top: 90px; */
+    width: 80%;
+    /* display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column; */
 }
 
 .sec3textcon5{
-    margin-top: 100px;
+    margin-top: 220px;
+    display: flex;
+    /* align-items:center; */
+    justify-content: center;
+}
+
+.faqdiv{
+    font-family: 'Outfit', sans-serif;
+    margin-top: 120px;
+    
 }

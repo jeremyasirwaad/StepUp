@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
 
-@media only screen and (max-width: 600px){
+
 .Landingpage{
     position: relative;
     height: 500px;
-    width: 100vw;
+    width: 100%;
     display: flex;  
     /* justify-content: center; */
     flex-direction: column;
@@ -15,25 +15,6 @@
     /* background-color: blue; */
 }
 
-.title1{
-
-    font-size: 70px;
-    font-weight: 500;
-    font-family: 'Outfit', sans-serif;
-    color: white;
-}
-
-.title2{
-
-    font-size: 70px;
-    font-weight: 500;
-    color: white;
-    font-family: 'Outfit', sans-serif;
-}
-
-.intitle{
-    color: rgb(255, 251, 44);
-}
 
 .custom-shape-divider-bottom-1642609008 {
     position: absolute;
@@ -159,5 +140,4 @@ i.vert-move {
   .button-56 {
     padding: 0 40px;
   }
-}
 }

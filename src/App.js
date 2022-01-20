@@ -8,6 +8,8 @@ import Section3 from './components/Section3/Section3';
 import Section4 from './components/Section4/Section4';
 import Section5 from './components/Section5/Section5';
 import Footer from './components/Footer/Footer';
+import logo from './components/NavBar/151517978_1629864483_IMG-20201010-WA0000.jpg'
+import './components/Landing/Landing.css'
 function App() {
   return (
     <div className="App">
@@ -18,6 +20,7 @@ function App() {
       <Section4 />
       <Section5 />
       <Footer />
+
     </div>
   );
 }

@@ -2,16 +2,16 @@
 @media only screen and (max-width: 600px)
 {
     .section2{
-        position: relative;
+        /* position: relative; */
         height: 550px;
         width: 100vw;
         background-color: #be5858;   
-        display: flex;
+        /* display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center; */
     }
 
-    .sec2contents{
+     .sec2contents{
         height: 100%;
         width: 100%;
         color: rgb(0, 0, 0);
@@ -20,11 +20,12 @@
 
         /* margin-ttom: 100px; */
 
-    }
+    } 
 
     .sec2title{
         font-size: 26px;
         color: rgb(255, 255, 255);
+        margin-left: 15px;
     }
 
     .sec2contents p{

@@ -1,25 +1,42 @@
 import React from 'react';
 import './Section5.css'
-import FAQS from 'react-faqs-component';
+import Faq from "react-faq-component";
 const Section5 = () => {
 
-    const data ={
-        faqs:[
-            {question:"What is Lorem Ipsum?",answer:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate nulla ut libero blandit, suscipit euismod dui condimentum. Donec nulla sapien, pulvinar mattis risus non, scelerisque consectetur turpis."},
-    
-            {question:"Why do we use it?",answer:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate nulla ut libero blandit, suscipit euismod dui condimentum. Donec nulla sapien, pulvinar mattis risus non, scelerisque consectetur turpis."},
-    
-            {question:"Where does it come from?",answer:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate nulla ut libero blandit, suscipit euismod dui condimentum. Donec nulla sapien, pulvinar mattis risus non, scelerisque consectetur turpis."},
-            
-            {question:"Where can I get some?",answer:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate nulla ut libero blandit, suscipit euismod dui condimentum. Donec nulla sapien, pulvinar mattis risus non, scelerisque consectetur turpis."},
-    
-            {question:"Why do we use it?",answer:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vulputate nulla ut libero blandit, suscipit euismod dui condimentum. Donec nulla sapien, pulvinar mattis risus non, scelerisque consectetur turpis."},
+    const data = {
+        rows: [
+            {
+                title: "Can anyone join STEP UP?",
+                content: `Yes. Any department. Any Year`,
+            },
+            {
+                title: "I want to focus on core. Why should I join STEP UP?",
+                content:
+                    "Treat this as a backup plan. If your ambition to get into 'core' doesn't work out, you can always get into a startup as a fullstack developer.",
+            },
+            {
+                title: " How long will it take to learn?",
+                content: `Depends on you. If you spend 25 hours per week, you shall be ready for an internship in 3 months. `,
+            },
         ],
-        backgroundColor:'#f4f5f9',
-        titleColor:"#000",
-        answerColor:"#000",
-        iconColor:"#000",
-      }
+    };
+    
+    const styles = {
+        // bgColor: 'white',
+        titleTextColor: "black",
+        rowTitleColor: "blue",
+        rowTitleColor: 'black',
+        rowContentColor: 'brown',
+        // arrowColor: "red",
+        
+    };
+    
+    const config = {
+        animate: true,
+        // arrowIcon: "V",
+        tabFocus: true
+    };
+    
 
     return (
         <div className='section5page'>
@@ -29,10 +46,14 @@ const Section5 = () => {
                 </svg>
             </div>
             <div className="sec3textcon5">
-                <span data-aos="fade-left" className='sec3title sec5title'>Frequently Asked</span>
-                <span data-aos="fade-left" className='sec3title sec5title' style={{ "marginTop" : "30px" }}>Questions</span>
+                <span data-aos="fade-up"  className='sec3title sec5title'>Frequently Asked</span>
+             <span  data-aos="fade-up" className='sec3title sec5title' style={{ "marginTop" : "30px", "color": "brown" }}>Questions</span>
                 <div className="faqdiv">
-                <FAQS data={data}/>
+                <Faq
+                data={data}
+                styles={styles}
+                config={config}
+            />
                 </div>
             </div>
         </div>

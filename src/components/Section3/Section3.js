@@ -9,7 +9,7 @@ const Section3 = () => {
             </svg>
         </div>
         <div className="sec3textcon">
-            <span data-aos="fade-left" className='sec3title'>Why <span className='sec3col'>FullStack ?</span></span>
+            <span  className='sec3title'>Why <span className='sec3col'>FullStack ?</span></span>
             <p data-aos="fade-right" style={{"marginTop" : "80px"}}>The age of the smartphones and tablets have forced every organization - from governments to educational institutions - to have a strong, visually appealing presence on the web. </p>
             <p data-aos="fade-right">And the way to get there is by developing <span className='sec3col'> web applications</span> that work on all devices and are visually appealing. 
             </p>
