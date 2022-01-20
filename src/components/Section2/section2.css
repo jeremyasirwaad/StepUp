@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
-@media only screen and (max-width: 600px)
-{
+
     .section2{
         /* position: relative; */
         height: 550px;
@@ -44,7 +43,7 @@
         margin-top: 50px;
     }
     
-}
+
 
 
 

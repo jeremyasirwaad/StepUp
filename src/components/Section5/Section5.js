@@ -59,24 +59,44 @@ const Section5 = () => {
                 <div className="divpwrap">
                     <p data-aos="fade-up">The following is a selective list of <span className='col5'>resources</span> that we think shall be useful for those who wish to pickup <span className='col5'>fullstack skills</span>. Feel free to pick the one that suits you.</p>
                     <div className="relinks">
+                    <div className="relink3">
+                           <a href="https://youtu.be/bMknfKXIFA8" className="img1"  data-aos="flip-left" >
+                                <img src={freecode} alt="" />
+                                <span>Freecode Camp</span>
+                                <span className="braca">(Responsive Web)</span>
+
+                                {/* <span>Responsive Design</span> */}
+                            </a>
+                            <a href="https://fullstackopen.com/en/" className="img2" data-aos="flip-right">
+                                <img src={freecode} alt="" />
+                                <span>Freecode Camp</span>
+                                <span className="braca">(Javascript)</span>
+
+                            </a>
+                        </div>
                         <div className="relink1">
                            <a href="https://youtu.be/bMknfKXIFA8" className="img1"  data-aos="flip-left" >
                                 <img src={freecode} alt="" />
-                                <span>Freecode Camp </span>
+                                <span>Freecode Camp</span>
+                                <span className="braca">(React Tutorial)</span>
+
                             </a>
                             <a href="https://fullstackopen.com/en/" className="img2" data-aos="flip-right">
                                 <img src={fullstackopen} alt="" />
                                 <span>FullStackOpen</span>
+                                <span className="braca">(Complete Course)</span>
                             </a>
                         </div>
                         <div className="relink2">
                             <a href="https://www.theodinproject.com/" className="img3" data-aos="flip-left">
-                                <img src={odin}alt="" />
+                                <img className="imgsizebig" src={odin}alt="" />
                                 <span>Odin</span>
+                                <span className="braca">(Complete Course)</span>
                             </a>
                             <a href="https://web.dev/learn/pwa/" className="img4" data-aos="flip-right">
                                 <img src={webdev} alt="" />
                                 <span>Web.Dev</span>
+                                <span className="braca">(Complete Course)</span>
                             </a>
                         </div>
                     </div>
